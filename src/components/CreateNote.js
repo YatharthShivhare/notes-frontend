@@ -29,7 +29,7 @@ function CreateNote() {
             .then((res) => {
                 console.log("Note posted successfully");
                 console.log("Status" + res.status);
-                setNewNote({title:"", content:""})
+                setNewNote({ title: "", content: "" });
             })
             .catch((err) => {
                 console.log("An error occurred while posting the note to the server");
@@ -66,7 +66,7 @@ function CreateNote() {
                             />
                         </Grid>
                         <Grid item xs={12}>
-                            <Button variant="contained" className="button" onClick={handleClick} sx={{ backgroundColor: "#1B2430", padding: 0.1, margin: 1, marginLeft: 0 }}>
+                            <Button variant="contained" className="create-note-button" onClick={handleClick} sx={{ backgroundColor: "#1B2430", padding: 0.1, margin: 1, marginLeft: 0 }}>
                                 <AddIcon />
                             </Button>
                         </Grid>

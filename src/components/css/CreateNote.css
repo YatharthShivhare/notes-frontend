@@ -1,7 +1,7 @@
 .CreateNote{
     display: flex;
     justify-content: center;
-    padding:5%;
+    padding:4%;
 }
 
 .title-field{
@@ -20,7 +20,7 @@
     margin-top: 1%;
 }
 
-.button{
+.create-note-button{
     background-color: #1B2430;
     display: flex;
     justify-content: center;
